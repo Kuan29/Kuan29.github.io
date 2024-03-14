@@ -19,6 +19,14 @@ let render_projects = (slug) => {
             categories: ['featured']
         },
         {
+            image: 'assets/images/na-chat.png',
+            link: 'https://github.com/Kuan29/chat_app/blob/master/README.md',
+            title: '채팅어플',
+            technologies: ['Java'],
+            description: "2022년 3학년때 개인프로젝트로 한학기동안 만든것으로 realtimedatabase를 이용하여 채팅 삭제 및 자동삭제를 구현하였습니다..",
+            categories: ['featured']
+        },
+        {
             image: 'assets/images/diet.png',
             link: 'https://github.com/Kuan29/Kuan',
             title: '다이어트 어플',
