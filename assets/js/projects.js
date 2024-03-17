@@ -11,6 +11,14 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            image: 'assets/images/mes.png',
+            link: 'https://github.com/Kuan29/Maple-Earning-System-master',
+            title: '넥슨 api를 사용한 검색시스템',
+            technologies: ['python', 'vue,js', 'MariaDB'],
+            description: "넥슨api를 사용하여 메이플 캐릭터 검색 시스템을 구현중 2023/12/31 ~ .",
+            categories: ['featured']
+        },
+        {
             image: 'assets/images/face.png',
             link: 'https://github.com/Kuan29/face_recognition',
             title: '얼굴인식 도어락',
@@ -34,6 +42,8 @@ let render_projects = (slug) => {
             description: "대학교2학년때 만든 프로젝트로 다이어트 어플로서 만보계, 달력 기능을 가지고 있습니다.",
             categories: ['featured']
         },
+        
+        
         
     ]
 
