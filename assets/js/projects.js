@@ -43,6 +43,8 @@ let render_projects = (slug) => {
             categories: ['featured']
         },
         
+        
+        
     ]
 
     let projects = [];
